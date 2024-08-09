@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+}
+.intro{
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    width: 100%;
+    background-color:sienna;
+}
+.left{
+    display: flex;
+    min-width: 50%;
+    cursor: pointer;
+    justify-content : center;
+}
+.img{
+    height: 250px;
+    width: 200px;
+    border: 3px solid lightgoldenrodyellow;
+    border-radius: 20px;
+}
+.nav{
+    display: flex;
+    width:100%;
+    background-color: lightgoldenrodyellow;
+    height: auto;
+    justify-content: center;
+}
+.nav h4{
+    padding: 1%;
+    font-size: 1.8rem;
+    margin-inline: 1rem;
+    margin: 1px 0;
+}
+.nav h4:hover{ 
+    display: none;
+}
+.nav #Text{
+    display: none;
+}
+.content:hover + #Text{
+    display: block;
+    cursor: progress;
+    background-color: sienna;
+    border-radius: 90%;
+    font-size: 1.9rem;
+}
+.right{
+    min-width: 50%;
+    text-align: center;
+    overflow: hidden;
+    content: normal;
+}
+.right a{
+    font-size: 4rem;
+}
+.right p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    cursor: pointer;
+    font-weight: 400;
+}
+.right .role{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    color:lightgoldenrodyellow;
+}
+.icon{
+    background: none;
+    border: none;
+    margin: 2%;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgoldenrodyellow;
+}
+.card{
+    display:inline-block;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 5px 4px 8px sienna;
+    max-width: 300px;
+    overflow: hidden;
+    text-align: center;
+    border: 2px solid sienna;
+    margin: 5% 30px;
+    padding: 2%;
+}
+.card p{
+    font-size: 2rem;
+    /* color: lightgoldenrodyellow; */
+}
+.card h2{
+    font-size: 3rem;
+    color: sienna;
+}
+.card-img{
+    background: none;
+    background-color:lightgoldenrodyellow ;
+    min-width: 300px,30%;
+    height: 250px;
+    object-fit: cover;
+    background: none;
+}
