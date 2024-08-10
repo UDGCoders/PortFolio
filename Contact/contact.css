@@ -1,6 +1,34 @@
 *{
-    background-color: lightgoldenrodyellow;
+    background-color:sienna;
     font-size: 10px;
+    margin: 0;
+}
+.nav{
+    display: flex;
+    width:100%;
+    background-color: lightgoldenrodyellow;
+    justify-content: center;
+}
+.nav h4{
+    padding: 1%;
+    font-size: 1.8rem;
+    margin-inline: 1rem;
+    margin: 1px 0;
+    background-color: lightgoldenrodyellow;
+}
+.nav h4:hover{ 
+    display: none;
+}
+.nav #Text{
+    display: none;
+    background-color: lightgoldenrodyellow;
+}
+.content:hover + #Text{
+    display: block;
+    cursor: progress;
+    background-color: sienna;
+    border-radius: 90%;
+    font-size: 1.9rem;
 }
 .mail{
     display: contents;
@@ -24,4 +52,42 @@ button{
 .phone{
     display: flex;
     font-size: 2rem;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:sienna;
+}
+.card{
+    display:inline-block;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 5px 4px 8px sienna;
+    max-width: 300px;
+    overflow: hidden;
+    text-align: center;
+    border: 2px solid sienna;
+    margin: 5% 30px;
+    padding: 2%;
+}
+.card p{
+    font-size: 2rem;
+}
+.card h2{
+    font-size: 3rem;
+    color: sienna;
+}
+.card-img{
+    background: none;
+    background-color:lightgoldenrodyellow ;
+    min-width: 30%;
+    height: 250px;
+    object-fit: cover;
+    background: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.8rem;
 }
