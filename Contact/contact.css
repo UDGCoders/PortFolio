@@ -1,0 +1,27 @@
+*{
+    background-color: lightgoldenrodyellow;
+    font-size: 10px;
+}
+.mail{
+    display: contents;
+    text-align: center;
+}
+.mail h2{
+    font-size: 2rem;
+}
+button a{
+    text-decoration: none;
+    color:lightgoldenrodyellow;
+    background-color: sienna;
+    font-size: 1.5rem;
+}
+button{
+    display:grid;
+    width: 90%;
+    font-size: large;
+    margin-left: 5%;
+}
+.phone{
+    display: flex;
+    font-size: 2rem;
+}
