@@ -16,13 +16,7 @@ const expertiseItems = [
         description: "I can use CSS and Bootstrap to design",
         highlight: "Modern WebApps"
     },
-    {
-        id: 3,
-        title: "Android Development",
-        image: "/images/download.png",
-        description: "I can use Flutter to develop",
-        highlight: "Mobile Apps"
-    }
+   
 ];
 
 export default function Expertise() {
@@ -42,11 +36,11 @@ export default function Expertise() {
         <section id="skills" ref={containerRef} style={{ height: "300vh", position: 'relative' }}>
             <div style={{ position: "sticky", top: 0, height: "100vh", overflow: "hidden", display: "flex", flexDirection: "column", justifyContent: "center" }}>
 
-                <div style={{ position: 'absolute', top: '15%', width: '100%', textAlign: 'center' }}>
+                <div style={{ position: 'absolute', top: '12%', width: '100%', textAlign: 'center' }}>
                     <h2 className="section-title">My Expertise</h2>
                 </div>
 
-                <motion.div style={{ x, display: "flex", gap: "3rem", paddingLeft: "15vw", alignItems: "center", height: "100%" }}>
+                <motion.div style={{ x, display: "flex", gap: "3rem", paddingLeft: "15vw", alignItems: "center", height: "100%", marginTop:"80px" }}>
                     {expertiseItems.map(item => (
                         <div key={item.id} className="card" style={{ flexShrink: 0, width: "350px", height: "400px", justifyContent: 'center' }}>
                             <img src={item.image} alt={item.title} className="card-img" />
