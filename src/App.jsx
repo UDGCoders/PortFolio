@@ -1,13 +1,13 @@
-import Sidebar from './components/Sidebar';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
 import Expertise from './components/Expertise';
-import Background3D from './components/Background3D';
 
 function App() {
     return (
         <div className="app-container">
-            <Sidebar />
-            <main className="right-content">
-                <Background3D />
+            <Navbar />
+            <main>
+                <Hero />
                 <Expertise />
             </main>
         </div>
